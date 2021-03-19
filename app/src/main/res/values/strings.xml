@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">German exercises</string>
+    <string name="titulo">Ja, ich lerne Deutsch!</string>
+    <string name="ejecicio1">Sustantiv</string>
+    <string name="plural_word_title">Pluralwort:</string>
+    <string name="button_die_title">Die</string>
+    <string name="button_der_title">Der</string>
+    <string name="button_das_title">Das</string>
+    <string name="textView_translation_content">translation_content</string>
+    <string name="textView_translation_title">Spanisch Übersetzung:</string>
+    <string name="textView_plural_word_content">plural_word_content</string>
+    <string name="text_view_word_content">word_content</string>
+    <string name="textView_word_title">Wort:</string>
+</resources>

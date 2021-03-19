@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="20dp"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".70"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_word_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_word_title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_word_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_view_word_content"
+            android:textSize="20sp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/textView_plural_word_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plural_word_title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_plural_word_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_plural_word_content"
+            android:textSize="20sp"
+            android:layout_marginBottom="30dp"/>
+
+        <TextView
+            android:id="@+id/textView_translation_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_translation_title"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView_transalation_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textView_translation_content"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight=".30"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_das"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:text="@string/button_das_title"
+            android:onClick="btnDasOnclick"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/button_der"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:text="@string/button_der_title"
+            android:onClick="btnDerOnClick"
+            android:textSize="30sp"/>
+
+        <Button
+            android:id="@+id/button_die"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".20"
+            android:text="@string/button_die_title"
+            android:onClick="btnDieOnClick"
+            android:textSize="30sp"
+            />
+
+        </LinearLayout>
+</LinearLayout>
